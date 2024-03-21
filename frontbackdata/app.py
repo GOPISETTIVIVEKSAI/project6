@@ -62,5 +62,5 @@ def delete(_id):
     my_cursor.execute(query,values)
     my_connection.commit()
     return render_template('response.html',context=f'user having {_id} has been deleted')
-
+#vivek sai hello hello world
 app.run()
